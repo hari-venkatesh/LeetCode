@@ -7,6 +7,8 @@
 // For example, 121 is a palindrome 
 // while 123 is not.
 
+// Lets Start 
+
 
 public static boolean isPalindrome(int number) {
     int palindrome = number; 
