@@ -9,8 +9,24 @@
 
 // You can return the answer in any order.
 
-class Solution {
-    public int[] twoSum(int[] nums, int target) {
-        
-    }
-}
+
+import java.util.HashMap;
+import java.util.Map;
+
+public class TEST {
+
+	public static void main(String[] args) {
+		int[] nums= {5,4,8,8,1,1,1,8,5};
+		int target = 9;
+		Map<Integer, Integer> hari = new HashMap<>();
+		for(int i=0; i<nums.length; i++) {
+			hari.put(target-nums[i], i);
+			Integer index=hari.get(nums[i]);
+			if(index != null) {
+				System.out.println(index +" "+ i);
+		}
+
+	}
+		
+		}
+	}
